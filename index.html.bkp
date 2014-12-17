@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>PupilTracker Backend</title>
+	</head>
+</html>
+
+<h1>PupilTracker Backend</h1>
+
+<form method="post" action="upload.php"> 
+	Name: <input type="text" name="name">
+	<br><br>
+	ID: <input type="text" name="pkey">
+	<br><br>
+	File: <input type="file" name="vid">
+	<br><br>
+	<input type="submit" name="submit"> 
+</form>
